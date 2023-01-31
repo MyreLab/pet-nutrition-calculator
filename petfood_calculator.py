@@ -160,7 +160,7 @@ elif meow_or_woof == 'Watson':
             
             # figure out how much wet food required based on the proportion of daily intake
             # "left over" from limiting the dry food intake and compensating with wet food
-            wet_required = (1 - (dry_limit/dry_only(chonk))) * wet_only(chonk)
+            wet_required = round((1 - (dry_limit/dry_only(chonk))) * wet_only(chonk),1)
             
             print(f'Feed {meow_or_woof} {wet_required} can(s) of wet food and {dry_limit} scoops of dry food')
         
@@ -168,7 +168,7 @@ elif meow_or_woof == 'Watson':
             
             # figure out how much dry food required based on the proportion of daily intake
             # "left over" from limiting the wet food intake and compensating with dry food
-            dry_required = (1 - (wet_limit/wet_only(chonk))) * dry_only(chonk)
+            dry_required = round((1 - (wet_limit/wet_only(chonk))) * dry_only(chonk),1)
             
             print(f'Feed {meow_or_woof} {wet_limit} can of wet food and {dry_food_combination} scoops of dry food per day ')
         
@@ -180,9 +180,9 @@ elif meow_or_woof == 'Watson':
     #calculating for dry only or wet only diet:
     elif diet_type == 'dry only':
         
-        dry_only(chonk)
+        print(f'Feed {meow_or_woof} {dry_only(chonk)} cups of dry food')
         
     else:
         
-        wet_only(chonk)
+        print(f'Feed {meow_or_woof} {wet_only(chonk)} cans of wet food')
 
