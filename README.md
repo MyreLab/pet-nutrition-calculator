@@ -6,5 +6,4 @@ This Python program calculates the daily amount of food for pets and outputs the
 
 - Linear regression was used to allow for dynamic calculation of cat food requirements based on cat's weight
 - User-defined prompts were used so that user can enter specific parameters, such as weight, diet type, etc.
-- Functions written to simplify arithmetic calculations
-- Nested 'if' statements handle branching logic for combination diet
+- Functions written to simplify arithmetic calculations; nested 'if' statements handle branching logic for combination diet
