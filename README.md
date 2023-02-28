@@ -1,4 +1,4 @@
-# Pet food calculator
+# Pet nutrition calculator
 
 This Python program calculates the daily amount of food for pets and outputs the right combination of wet and dry food based on pet's weight. Created for cats and dogs, based on the nutritional labels of both of my pets. 
 
