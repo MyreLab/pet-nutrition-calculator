@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 # Importing data: 
 #
 
-url = 'https://github.com/MyreLab/petfood_calculator/blob/main/nutrition.xlsx?raw=true'
+url = 'https://github.com/MyreLab/pet-nutrition-calculator/blob/main/nutrition.xlsx?raw=true'
 
 # ***** For Euclid 🐻‍❄️ ***** # 
 # Purina One: Natural SmartBlend Chicken & Rice, Large Breed, Dry Dog Food
